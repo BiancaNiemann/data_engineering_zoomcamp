@@ -17,6 +17,9 @@ RUN uv sync --locked
 
 # Copy application code
 COPY ingest_data.py ingest_data.py 
+COPY ingest_zones.py ingest_zones.py
+COPY ingest_parquet.py ingest_parquet.py
 
 # Set entry point
-ENTRYPOINT [ "python", "ingest_data.py"]
+CMD [ "python"]
+# Was ENTRYPOINT [ "python", "data_ingest.py" ] but changed to CMD to allow overriding the command at runtime
