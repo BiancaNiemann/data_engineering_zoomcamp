@@ -149,5 +149,4 @@ Kestra is a good choice if you:
 
 ---
 
-*This document is intended as a beginner‑friendly explanation and can be used as a README or introductory guide on GitHub.*
 
