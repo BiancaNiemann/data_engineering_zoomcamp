@@ -22,3 +22,22 @@ docker run -it \
     --year=2021 \
     --month=1 \
     --chunksize=100000
+
+
+    ### ETL
+    - Extraction = getting the data
+    - Transform = remove , add, manipulate data
+    - Load = put in Database or Datawarehouse
+
+    - Use ETL Pipeline
+
+    - Can use Kestra to take parts of the ETL process and run it
+    - setup a flow
+
+    - Add a new Flow
+    - can look at topology (akmost like a DAG)
+    - Add tasks
+    
+
+cd 02-workflow-orchestration/docker
+export GEMINI_API_KEY="key here"

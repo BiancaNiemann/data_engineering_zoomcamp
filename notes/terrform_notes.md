@@ -6,10 +6,10 @@ Need to setup a service account (Big Query Admin, storage admin and compute admi
 main.tf
 
 ### to export the keys file
-(base) biancaniemann@Biancas-Air terrademo % export GOOGLE_CREDENTIALS='/workspaces/data_engineering_zoomcamp/pipeline/terraform/keys/my-creds.json'
+(base) biancaniemann@Biancas-Air terrademo % export GOOGLE_CREDENTIALS='/workspaces/data_engineering_zoomcamp/keys/my-creds.json'
 
 (base) biancaniemann@Biancas-Air terrademo % echo $GOOGLE_CREDENTIALS
-/Users/biancaniemann/Documents/DTC_Zoomcamp/terrademo/keys/my-creds.json
+/workspaces/data_engineering_zoomcamp/keys/my-creds.json
 
 ### Initialize
 (base) biancaniemann@Biancas-Air terrademo % terraform init

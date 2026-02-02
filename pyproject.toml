@@ -11,6 +11,9 @@ dependencies = [
     "pyarrow>=22.0.0",
     "sqlalchemy>=2.0.45",
     "tqdm>=4.67.1",
+    "google-cloud-bigquery",
+    "google-cloud-bigquery-storage",
+    "db-dtypes"
 ]
 
 [dependency-groups]
