@@ -257,3 +257,6 @@ terraform.rc
 # Optional: ignore plan files saved before destroying Terraform configuration
 # Uncomment the line below if you want to ignore planout files.
 # planout
+
+
+01_pipeline/01-pipeline/ny_taxi_postgres_data/18/docker/
