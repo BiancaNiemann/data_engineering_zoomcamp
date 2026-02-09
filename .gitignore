@@ -260,3 +260,9 @@ terraform.rc
 
 
 01_pipeline/01-pipeline/ny_taxi_postgres_data/18/docker/
+# Default .gitignore content added by dbt Cloud# you shouldn't commit these into source control
+# these are the default directory names, adjust/add to fit your needs
+target/
+dbt_packages/
+logs/
+# end dbt Cloud content
